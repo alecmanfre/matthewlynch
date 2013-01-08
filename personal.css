@@ -1,0 +1,205 @@
+#main{
+	
+	height:650px;
+	width: 1345px;
+}
+body {
+    color: #404040;
+    font-family: 'open sans','helvetica neue',helvetica,arial,sans-serif;
+    font-weight: 300;
+    margin: 0;
+    background: url("images/backgroundPatagonia.png") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#topNav{
+	height: 40px;
+	background: url("images/leftBioBackground.png") repeat;
+}
+#navBar{
+	background: url("images/leftBioBackground.png") repeat;
+	width: 292px;
+	height: 30px;
+	font-size: 13px;
+	padding-top: 15px;
+	float: right;
+	border-radius: 0px 0px 0px 10px; 
+}
+#homeIcon{
+	float: left;
+	background: url("images/tinyHouseIcon.png") no-repeat 0 0 ;
+	padding-left: 18px;
+	margin-right: 5px;
+	padding-right: 5px;
+	/*border-right: thin solid #404040;*/
+	margin-left: 20px;
+	vertical-align: middle;
+	padding-left: 18px;
+	height: 20px;
+
+}
+#photoIcon{
+	float: left;
+	background: url("images/tinyCameraIcon.png") no-repeat 0 0 ;
+	padding-left: 19px;
+	margin-right: 5px;
+	padding-right: 5px;
+	/*border-right: thin solid #404040;*/
+}
+#projectIcon{
+	float: left;
+	background: url("images/tinyPencilIcon.png") no-repeat 0 0 ;
+	padding-left: 20px;
+	margin-right: 5px;
+	padding-right: 5px;
+	/*border-right: thin solid #404040;*/
+}
+#postIcon{
+	float: left;
+	background: url("images/tinyCompassIcon.png") no-repeat 0 0 ;
+	padding-left: 19px;
+	margin-right: 5px;
+}
+#leftBio{
+	background: url("images/leftBioBackground.png") repeat 0 0 ;
+	height: 650px;
+	width: 300px;
+	padding-top: 50px;
+	float: left;
+}
+#bioPic{
+	background: url("images/mattBioPicture.png") no-repeat 0 0 ;
+	height: 162px;
+	width: 162px;
+	margin-left: 69px;
+}
+#nameTitle{
+	font-size: 16px;
+	font-weight: normal;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+#bioText{
+	font-size: 12px;
+	width: 250px;
+	border-bottom: thin solid #404040;
+	height: 170px;
+	margin-left: 25px;
+}
+#chileIcon{
+	margin-top: 60px;
+	height: 87px;
+	width: 30px;
+	text-align: center;
+	float: left;
+	margin-left: 48px;
+	margin-right: 20px;
+}
+#chilePic{
+	background: url("images/Chile.png") no-repeat 0 0 ;
+	height: 60px;
+	width: 11px;
+	display: inline-block;
+}
+#newZealandPic{
+	background: url("images/newZealand.png") no-repeat 0 0 ;
+	height: 60px;
+	width: 45px;
+	display: inline-block;
+}
+#australiaPic{
+	background: url("images/australia.png") no-repeat 0 0 ;
+	height: 43px;
+	width: 49px;
+	display: inline-block;
+}
+#chileTitle{
+	margin-top: 10px;
+	font-size: 11px;
+}
+#newZealandTitle{
+	margin-top: 10px;
+	font-size: 11px;
+}
+#australiaTitle{
+	margin-top: 10px;
+	font-size: 11px;
+}
+#newZealandIcon{
+	margin-top: 60px;
+	height: 87px;
+	width: 65px;
+	text-align: center;
+	float: left;
+	margin-right: 20px;
+}
+#australiaIcon{
+	margin-top: 77px;
+	height: 70px;
+	width: 49px;
+	text-align: center;
+	float: left;
+}
+#mainphotoIcon{
+	float:left;
+	margin-top: 190px;
+	margin-right: 59px;
+	margin-left: 100px;
+	text-align: center;
+}
+#mainphotoPic{
+	background: url("images/photoIcon.png") no-repeat 0 0 ;
+	height: 119px;
+	width: 119px;
+	display: inline-block;
+}
+#bodyIcons{
+	float:left;
+	font-size: 48px;
+	color: #FFFFFF;
+	font-weight: 400;
+
+}
+#mainprojectIcon{
+	float:left;
+	margin-top: 190px;
+	margin-right: 118px;
+	text-align: center;
+}
+#mainprojectPic{
+	background: url("images/pencilIcon.png") no-repeat 0 0 ;
+	height: 120px;
+	width: 120px;
+	display: inline-block;
+}
+#mainpostIcon{
+	float:left;
+	margin-top: 190px;
+	text-align: center;
+
+}
+#mainpostPic{
+	background: url("images/compassIcon.png") no-repeat 0 0 ;
+	height: 120px;
+	width: 120px;
+	display: inline-block;
+}
+.countryDot{
+	background: url("images/countryDot.png") no-repeat 0 0;
+	margin-top: 10px;
+	height: 10px;
+	width: 20px;
+	float: left;
+}
+#countryIcons{
+	display: block;
+	height: 150px;
+	margin-left: 10px;
+}
+#dotWrapper{
+	margin-left: 116px;
+}
+
