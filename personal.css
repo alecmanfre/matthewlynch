@@ -202,4 +202,36 @@ body {
 #dotWrapper{
 	margin-left: 116px;
 }
+#fivehundpx{
+	background: url("images/500pxIcon.png") no-repeat 0 0;
+	height: 17px;
+	width: 36px;
+	float: left;
+	margin-right: 10px;
+}
+#linkedin{
+	background: url("images/linkedinIcon.png") no-repeat 0 0;
+	height: 17px;
+	width: 18px;
+	margin-right: 10px;
+	float: left;
+}
+#gmail{
+	background: url("images/gmailIcon.png") no-repeat 0 0;
+	height: 17px;
+	width: 24px;
+	float: left;
+	margin-right: 10px;
+}
+#twitter{
+	background: url("images/twitterIcon.png") no-repeat 0 0;
+	height: 17px;
+	width: 36px;
+	float: left;
+}
+#contactIcons{
+	height: 27px;
+	margin-left: 80px;
+	margin-top: 10px;
+}
 
