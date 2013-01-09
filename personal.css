@@ -33,7 +33,6 @@ body {
 	padding-left: 18px;
 	margin-right: 5px;
 	padding-right: 5px;
-	/*border-right: thin solid #404040;*/
 	margin-left: 20px;
 	vertical-align: middle;
 	padding-left: 18px;
@@ -208,6 +207,10 @@ body {
 	width: 36px;
 	float: left;
 	margin-right: 10px;
+	-moz-transition: opacity .15s;
+}
+#fivehundpx:hover{
+	opacity: .5;
 }
 #linkedin{
 	background: url("images/linkedinIcon.png") no-repeat 0 0;
@@ -215,6 +218,10 @@ body {
 	width: 18px;
 	margin-right: 10px;
 	float: left;
+	-moz-transition: opacity .15s;
+}
+#linkedin:hover{
+	opacity: .5;
 }
 #gmail{
 	background: url("images/gmailIcon.png") no-repeat 0 0;
@@ -222,12 +229,20 @@ body {
 	width: 24px;
 	float: left;
 	margin-right: 10px;
+	-moz-transition: opacity .15s;
+}
+#gmail:hover{
+	opacity: .5;
 }
 #twitter{
 	background: url("images/twitterIcon.png") no-repeat 0 0;
 	height: 17px;
 	width: 36px;
 	float: left;
+	-moz-transition: opacity .15s;
+}
+#twitter:hover{
+	opacity: .5;
 }
 #contactIcons{
 	height: 27px;
