@@ -4,6 +4,7 @@
 	<!-- Meta Data -->
 	<title> Matthew Lynch </title>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
 	<!-- Stylesheets -->
 	<link rel="stylesheet" type="text/css" href="personal.css">
 	<link href="bootstrap/bootstrap.css" rel="stylesheet">
@@ -12,25 +13,19 @@
 	<!-- Libraries -->
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 	<script src="js/jquery.neosmart.fb.wall.js" type="text/javascript"></script>
-	<script src="js/bootstrap.min.js" type="text/javascript"></script>
-		<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script> 	
+	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+  <link rel="stylesheet" href="source/jquery.fancybox.css" type="text/css" media="screen" />
+  <script type="text/javascript" src="source/jquery.fancybox.pack.js"></script> 	
 </head>
 
 <body>
-	<div id="navBar">
-			<div id="homeIcon">
-				<div id="homeTag">Home</div>
-			</div>
-			<div id="photoIcon">
-				<div id="photoTag">Photo</div>
-			</div>
-			<div id="projectIcon">
-				<div id="projectTag">Projects</div>
-			</div>
-			<div id="postIcon">
-				<div id="postTag">Posts</div>
-			</div>
-	</div>
+		<div id="navBar">
+			<a id="homeIconChosen" href="file:///Users/Matt/Sites/matthewjameslynch/mattpersonalsite/index.html" target="_self">Home</a>
+			<a id="photoIcon" href="file:///Users/Matt/Sites/matthewjameslynch/mattpersonalsite/pictures.html" target="_self">Photo</a>
+			<a id="projectIcon" href="file:///Users/Matt/Sites/matthewjameslynch/mattpersonalsite/projects.html" target="_self">Projects</a>
+			<div id="postIcon">Posts</div>
+		</div>
 	<div id="main">
 		<div id="leftBio">
 			<div id="bioPic"></div>
@@ -64,20 +59,25 @@
 			</div>
 		</div>
 		<div id="bodyIcons">
-			<div id="mainphotoIcon">
+			<a id="mainphotoIcon" href="file:///Users/Matt/Sites/matthewjameslynch/mattpersonalsite/pictures.html" target="_self">
 				<div id="mainphotoPic"></div>
 				<div id="mainphotoTitle">photography</div>
-			</div>
-			<div id="mainprojectIcon">
+			</a>
+			<a id="mainprojectIcon" href="file:///Users/Matt/Sites/matthewjameslynch/mattpersonalsite/projects.html" target="_self">
 				<div id="mainprojectPic"></div>
 				<div id="mainprojectTitle">projects</div>
-			</div>
+			</a>
 			<div id="mainpostIcon">
 				<div id="mainpostPic"></div>
 				<div id="mainpostTitle">posts</div>
 			</div>
 		</div>	
-	</div>
-		
+	</div>		
 </body>   
 </html>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+</script>

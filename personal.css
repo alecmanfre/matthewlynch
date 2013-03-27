@@ -1,7 +1,5 @@
 #main{
-	
-	height:650px;
-	width: 1345px;
+
 }
 body {
     color: #404040;
@@ -14,10 +12,6 @@ body {
 	-o-background-size: cover;
 	background-size: cover;
 }
-#topNav{
-	height: 40px;
-	background: url("images/leftBioBackground.png") repeat;
-}
 #navBar{
 	background: url("images/leftBioBackground.png") repeat;
 	width: 292px;
@@ -25,7 +19,23 @@ body {
 	font-size: 13px;
 	padding-top: 15px;
 	float: right;
-	border-radius: 0px 0px 0px 10px; 
+	border-radius: 0px 0px 0px 10px;
+	font-family: 'open sans';
+	text-decoration: none; 
+}
+#homeIconChosen{
+	float: left;
+	background: url("images/tinyHouseIcon.png") no-repeat 0 0 ;
+	padding-left: 18px;
+	margin-right: 5px;
+	padding-right: 5px;
+	margin-left: 20px;
+	vertical-align: middle;
+	padding-left: 18px;
+	height: 20px;
+	text-decoration: none;
+	color: #404040;
+
 }
 #homeIcon{
 	float: left;
@@ -37,7 +47,14 @@ body {
 	vertical-align: middle;
 	padding-left: 18px;
 	height: 20px;
-
+	text-decoration: none;
+	color: #404040;
+	opacity: .45;
+	-moz-transition: opacity .25s;
+}
+#homeIcon:hover{
+	opacity: 1;
+	-moz-transition: opacity .25s;
 }
 #photoIcon{
 	float: left;
@@ -46,6 +63,15 @@ body {
 	margin-right: 5px;
 	padding-right: 5px;
 	/*border-right: thin solid #404040;*/
+	text-decoration: none;
+	color: #404040;
+	opacity: .45;
+	-moz-transition: opacity .25s;
+}
+#photoIcon:hover{
+	opacity: 1;
+	-moz-transition: opacity .25s;
+
 }
 #projectIcon{
 	float: left;
@@ -54,12 +80,33 @@ body {
 	margin-right: 5px;
 	padding-right: 5px;
 	/*border-right: thin solid #404040;*/
+	text-decoration: none;
+	color: #404040;
+	opacity: .45;
+	-moz-transition: opacity .25s;
+}
+#projectIcon:hover{
+	opacity: 1;
+	-moz-transition: opacity .25s;
+}
+#projectIconChosen{
+	float: left;
+	background: url("images/tinyPencilIcon.png") no-repeat 0 0 ;
+	padding-left: 20px;
+	margin-right: 5px;
+	padding-right: 5px;
+	/*border-right: thin solid #404040;*/
+	text-decoration: none;
+	color: #404040;
 }
 #postIcon{
 	float: left;
 	background: url("images/tinyCompassIcon.png") no-repeat 0 0 ;
 	padding-left: 19px;
 	margin-right: 5px;
+	text-decoration: none;
+	color: #404040;
+	opacity: .45;
 }
 #leftBio{
 	background: url("images/leftBioBackground.png") repeat 0 0 ;
@@ -158,6 +205,13 @@ body {
 	margin-right: 59px;
 	margin-left: 100px;
 	text-align: center;
+	text-decoration: none;
+	color: #FFFFFF;
+	
+}
+#mainphotoIcon:hover{
+	border-bottom: thin solid #FFFFFF;
+
 }
 #mainphotoPic{
 	background: url("images/photoIcon.png") no-repeat 0 0 ;
@@ -177,6 +231,12 @@ body {
 	margin-top: 190px;
 	margin-right: 118px;
 	text-align: center;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#mainprojectIcon:hover{
+	border-bottom: thin solid #FFFFFF;
+
 }
 #mainprojectPic{
 	background: url("images/pencilIcon.png") no-repeat 0 0 ;
@@ -259,4 +319,78 @@ body {
 	margin-left: 80px;
 	margin-top: 10px;
 }
+
+/*Project page*/
+.projectBox{
+	height: 500px;
+	width: 400px;
+	float: left;
+	border-radius: 10px; 
+	border: thin solid #404040;
+}
+#bractletSite{
+	margin-right: 100px;
+	background: url("images/bractletSite.png") no-repeat 0 0;
+}
+#bractletSiteText{
+	background: url("images/gray_jean.png") repeat 0 0;
+	opacity: 0;
+	-moz-transition: opacity .33s;
+	border: none;
+}
+#bractletSiteText:hover{
+	opacity: .95;
+}
+#bractletApp{
+	background: url("images/bractletApp.png") no-repeat 0 0;
+}
+#bractletAppText{
+	background: url("images/gray_jean.png") repeat 0 0;
+	opacity: 0;
+	-moz-transition: opacity .33s;
+	border: none;
+}
+#bractletAppText:hover{
+	opacity: .95;
+}
+#topNav{
+	height: 45px;
+	margin-bottom: 30px;
+}
+.projectTitle{
+	font-size: 22px;
+	font-weight: 500;
+	font-family: 'open sans';
+	text-align: left;
+	height: 30px;
+	width: 350px;
+	margin-left: 25px;
+	margin-top: 25px
+}
+.projectText{
+	width: 350px;
+	margin-left: 25px;
+}
+.projectDesc{
+	height: 160px;
+	border-radius: 10px; 
+	border: thin solid #404040;
+	margin-left: 163px;
+	width: 840px;
+	margin-bottom: 20px;
+	background: url("images/leftBioBackground.png") repeat 0 0 ;
+	padding: 20px;
+	opacity: 1;
+	font-family: "open sans";
+}
+.pageTitle{
+	font-family: "open sans";
+	font-size: 42px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.projectDescription{
+
+}
+
 
