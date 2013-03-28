@@ -222,10 +222,11 @@ body {
 #bodyIcons{
 	float:left;
 	font-size: 48px;
+	line-height: 50px;
 	color: #FFFFFF;
 	font-weight: 400;
-
 }
+
 #mainprojectIcon{
 	float:left;
 	margin-top: 190px;
@@ -234,6 +235,7 @@ body {
 	text-decoration: none;
 	color: #FFFFFF;
 }
+
 #mainprojectIcon:hover{
 	border-bottom: thin solid #FFFFFF;
 
@@ -393,4 +395,7 @@ body {
 
 }
 
+.projects-container{
+	margin-bottom: 40px;
+}
 
